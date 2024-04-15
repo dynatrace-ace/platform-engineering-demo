@@ -14,12 +14,12 @@ metadata:
     - url: https://github.com/dynatrace-ace/platform-engineering-demo
       title: Github Repo
       icon: github
-    - url: https://glowing-space-adventure-v54wp4pp96jcw57j-80.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+    - url: https://glowing-space-adventure-v54wp4pp96jcw57j-80.app.github.dev/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
       title: "Browse Application"
       icon: subject
     - title: View in ArgoCD
       icon: catalog
-      url: https://glowing-space-adventure-v54wp4pp96jcw57j-30100.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+      url: https://glowing-space-adventure-v54wp4pp96jcw57j-30100.app.github.dev/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
     - title: View in Dynatrace
       icon: catalog
       url: https://kzz76396.sprint.apps.dynatracelabs.com
